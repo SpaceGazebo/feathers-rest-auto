@@ -45,7 +45,7 @@
     "@google-cloud/debug-agent": "^5.1.2",
     "compression": "^1.7.4",
     "cors": "^2.8.5",
-    "feathers-knex": "^7.1.1",
+    "feathers-knex": "git+https://github.com/michalgm/feathers-knex#c3caff90a63d1bcd07e6f19994139f9ec7220471",
     "helmet": "^3.23.3",
     "knex": "^0.21.5",
     "pg": "^8.3.3",

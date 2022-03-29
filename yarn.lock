@@ -296,16 +296,21 @@
     minimatch "^3.0.4"
     strip-json-comments "^3.1.1"
 
-"@feathersjs/adapter-commons@^4.5.2":
-  version "4.5.2"
-  resolved "https://registry.yarnpkg.com/@feathersjs/adapter-commons/-/adapter-commons-4.5.2.tgz#10fdf4f6b305b313fb8b4dcc52838e3d89d57279"
-  integrity sha512-7NF4WO/R0OOZo6/mPnMml4Hz+Ynr0JMCp4TDO6JIf3ITAwc78A7b6jrORw1sw3Cq3hkD0sC342sk7mRk3BwPDg==
+"@feathersjs/adapter-commons@^4.3.8":
+  version "4.5.12"
+  resolved "https://registry.yarnpkg.com/@feathersjs/adapter-commons/-/adapter-commons-4.5.12.tgz#5b924e0d20745d37ba9f8d804d15687dbbe7d5a7"
+  integrity sha512-5UTo3M0WARIAUSOWFrHuf668pVewuQyOBuZXvvOa76SKe6/n31HulKFlXI2+FmBascOhaJibVBsP7jfcoQ6HfQ==
   dependencies:
-    "@feathersjs/commons" "^4.5.2"
-    "@feathersjs/errors" "^4.5.2"
-    "@feathersjs/feathers" "^4.5.2"
+    "@feathersjs/commons" "^4.5.12"
+    "@feathersjs/errors" "^4.5.12"
+    "@feathersjs/feathers" "^4.5.12"
 
-"@feathersjs/commons@^4.5.2", "@feathersjs/commons@^4.5.3", "@feathersjs/commons@^4.5.8":
+"@feathersjs/commons@^4.3.0", "@feathersjs/commons@^4.5.12":
+  version "4.5.12"
+  resolved "https://registry.yarnpkg.com/@feathersjs/commons/-/commons-4.5.12.tgz#42e60e933849905b8803a3ebd7d4424f85ee7d3f"
+  integrity sha512-ss3yyk8HurmOCSD+wvENIrT9iSa8vg9SmikoP5c9JaLkbtMmKpH88jCjgRl7jiO54f2+UcjW3PqccNgUGSNSDQ==
+
+"@feathersjs/commons@^4.5.8":
   version "4.5.8"
   resolved "https://registry.yarnpkg.com/@feathersjs/commons/-/commons-4.5.8.tgz#12351a1796f707a9940e83e875ba414f8c15291d"
   integrity sha512-8HFQjJ5fkciLbvwWOsbtUvAIOFKMRIXLg+Ynm4HLjK2wHwpWtppkYxe3TfVbc254SYigmQ1c9kK0ERjrn6CqqQ==
@@ -319,7 +324,14 @@
     config "^3.3.1"
     debug "^4.1.1"
 
-"@feathersjs/errors@^4.5.2", "@feathersjs/errors@^4.5.3", "@feathersjs/errors@^4.5.8":
+"@feathersjs/errors@^4.3.4", "@feathersjs/errors@^4.5.12":
+  version "4.5.12"
+  resolved "https://registry.yarnpkg.com/@feathersjs/errors/-/errors-4.5.12.tgz#c9d408a103e2ead228e6c61ea24516e6fe635a43"
+  integrity sha512-xIQJ7t/acTuL1fTC6mpf0qlcWfJkA9x0rRMrSgjD3mzUnJU6VqxXFxusL8895ksGD0vQHwPueblbm8Hn6Ifqqw==
+  dependencies:
+    debug "^4.3.3"
+
+"@feathersjs/errors@^4.5.3", "@feathersjs/errors@^4.5.8":
   version "4.5.8"
   resolved "https://registry.yarnpkg.com/@feathersjs/errors/-/errors-4.5.8.tgz#4ec2d954953990f5fd61d81459577cd0e0e082e0"
   integrity sha512-PPpTHpCuWR0nbs4vvQEdXC5gLnWHmeDCF+hm9IJouzYkYIjt0UG/vKvPCBNqCREVHVfSrszdzI1MSeHRSUQddQ==
@@ -339,7 +351,17 @@
     lodash "^4.17.19"
     uberproto "^2.0.6"
 
-"@feathersjs/feathers@^4.5.2", "@feathersjs/feathers@^4.5.3", "@feathersjs/feathers@^4.5.8":
+"@feathersjs/feathers@^4.5.12":
+  version "4.5.12"
+  resolved "https://registry.yarnpkg.com/@feathersjs/feathers/-/feathers-4.5.12.tgz#86a99e601a99cd3a30f9e8841039b052676f5168"
+  integrity sha512-24bxpMpheBrDmVwwByNPPfXnXk2KkeiW3NvE3xXHbt7QzZj3OrPJ8WS5MqUZMPMFSLMyqlhRKs+hpQgfWhuxrA==
+  dependencies:
+    "@feathersjs/commons" "^4.5.12"
+    debug "^4.3.3"
+    events "^3.3.0"
+    uberproto "^2.0.6"
+
+"@feathersjs/feathers@^4.5.3", "@feathersjs/feathers@^4.5.8":
   version "4.5.8"
   resolved "https://registry.yarnpkg.com/@feathersjs/feathers/-/feathers-4.5.8.tgz#4d9e7fe035d568f5186c7d4669b57ab97a809d53"
   integrity sha512-6d8oOPGZu4unda4XXNXV8nzaUI/OsUXY7s30HFDFvf7c81A2oe2uQ/u8OdGEiKpKcX5Ugq9lKYhiYCvMM3dibA==
@@ -1626,6 +1648,13 @@ debug@^3.2.6:
   dependencies:
     ms "^2.1.1"
 
+debug@^4.3.3:
+  version "4.3.4"
+  resolved "https://registry.yarnpkg.com/debug/-/debug-4.3.4.tgz#1319f6579357f2338d3337d2cdd4914bb5dcc865"
+  integrity sha512-PRWFHuSU3eDtQJPvnNY7Jcket1j0t5OuOsFzPPzsekD52Zl8qUfFIPEiswXqIvHWGVHOgX+7G/vCNNhehwxfkQ==
+  dependencies:
+    ms "2.1.2"
+
 decamelize@^1.2.0:
   version "1.2.0"
   resolved "https://registry.yarnpkg.com/decamelize/-/decamelize-1.2.0.tgz#f6534d15148269b20352e7bee26f501f9a191290"
@@ -1995,6 +2024,11 @@ events@^3.2.0:
   resolved "https://registry.yarnpkg.com/events/-/events-3.2.0.tgz#93b87c18f8efcd4202a461aec4dfc0556b639379"
   integrity sha512-/46HWwbfCX2xTawVfkKLGxMifJYQBWMwY1mjywRtb4c9x8l5NP3KoJtnIOiL1hfdRkIuYhETxQlo62IF8tcnlg==
 
+events@^3.3.0:
+  version "3.3.0"
+  resolved "https://registry.yarnpkg.com/events/-/events-3.3.0.tgz#31a95ad0a924e2d2c419a813aeb2c4e878ea7400"
+  integrity sha512-mQw+2fkQbALzQ7V0MY0IqdnXNOeTtP4r0lN9z7AAawCXgqea7bDii20AYrIBrFd/Hx0M2Ocz6S111CaFkUcb0Q==
+
 exec-sh@^0.3.2:
   version "0.3.4"
   resolved "https://registry.yarnpkg.com/exec-sh/-/exec-sh-0.3.4.tgz#3a018ceb526cc6f6df2bb504b2bfe8e3a4934ec5"
@@ -2177,16 +2211,15 @@ fb-watchman@^2.0.0:
   dependencies:
     bser "2.1.1"
 
-feathers-knex@^7.1.1:
-  version "7.1.1"
-  resolved "https://registry.yarnpkg.com/feathers-knex/-/feathers-knex-7.1.1.tgz#982cc48ab2a22e3e1a087ff6d7ec8bcbaf485a0c"
-  integrity sha512-Ptc0WOuFboOAPDlK1BaL6BBWKp+2q0iyFXp0DkiTZ4kX7uQv495xuAz38OaIn9v1u56+LmN+Q0lKbKkka3bZVg==
+"feathers-knex@git+https://github.com/michalgm/feathers-knex#c3caff90a63d1bcd07e6f19994139f9ec7220471":
+  version "7.1.0"
+  resolved "git+https://github.com/michalgm/feathers-knex#c3caff90a63d1bcd07e6f19994139f9ec7220471"
   dependencies:
-    "@feathersjs/adapter-commons" "^4.5.2"
-    "@feathersjs/commons" "^4.5.3"
-    "@feathersjs/errors" "^4.5.3"
+    "@feathersjs/adapter-commons" "^4.3.8"
+    "@feathersjs/commons" "^4.3.0"
+    "@feathersjs/errors" "^4.3.4"
     debug "^4.1.1"
-    is-plain-object "^3.0.1"
+    is-plain-object "^3.0.0"
 
 feature-policy@0.3.0:
   version "0.3.0"
@@ -2978,7 +3011,7 @@ is-plain-object@^2.0.3, is-plain-object@^2.0.4:
   dependencies:
     isobject "^3.0.1"
 
-is-plain-object@^3.0.1:
+is-plain-object@^3.0.0:
   version "3.0.1"
   resolved "https://registry.yarnpkg.com/is-plain-object/-/is-plain-object-3.0.1.tgz#662d92d24c0aa4302407b0d45d21f2251c85f85b"
   integrity sha512-Xnpx182SBMrr/aBik8y+GuR4U1L9FqMSojwDQwPMmxyC6bvEqly9UBCxhauBF5vNh2gwWJNX6oDV7O+OM4z34g==
@@ -3906,7 +3939,7 @@ ms@2.1.1:
   resolved "https://registry.yarnpkg.com/ms/-/ms-2.1.1.tgz#30a5864eb3ebb0a66f2ebe6d727af06a09d86e0a"
   integrity sha512-tgp+dl5cGk28utYktBsrFqA7HKgrhgPsg6Z/EfhWI4gl1Hwq8B/GmY/0oXZ6nF8hDVesS/FpnYaD/kOWhYQvyg==
 
-ms@^2.1.1:
+ms@2.1.2, ms@^2.1.1:
   version "2.1.2"
   resolved "https://registry.yarnpkg.com/ms/-/ms-2.1.2.tgz#d09d1f357b443f493382a8eb3ccd183872ae6009"
   integrity sha512-sGkPx+VjMtmA6MX27oA4FBFELFCZZ4S4XqeGOXCv68tT+jb3vk/RyaKWP0PTKyWtmLSM0b+adUTEvbs1PEaH2w==

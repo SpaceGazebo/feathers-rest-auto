@@ -2211,9 +2211,9 @@ fb-watchman@^2.0.0:
   dependencies:
     bser "2.1.1"
 
-"feathers-knex@git+https://github.com/michalgm/feathers-knex#c3caff90a63d1bcd07e6f19994139f9ec7220471":
+"feathers-knex@https://github.com/michalgm/feathers-knex#c3caff90a63d1bcd07e6f19994139f9ec7220471":
   version "7.1.0"
-  resolved "git+https://github.com/michalgm/feathers-knex#c3caff90a63d1bcd07e6f19994139f9ec7220471"
+  resolved "https://github.com/michalgm/feathers-knex#c3caff90a63d1bcd07e6f19994139f9ec7220471"
   dependencies:
     "@feathersjs/adapter-commons" "^4.3.8"
     "@feathersjs/commons" "^4.3.0"

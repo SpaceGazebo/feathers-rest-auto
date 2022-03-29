@@ -14,8 +14,13 @@ WORKDIR /usr/src/app
 COPY package.json .
 COPY yarn.lock .
 
+# for fork of repo
+RUN apk add --no-cache git
+
 # Install production dependencies.
 RUN yarn install --prod
+
+RUN apk del git
 
 # Copy local code to the container image.
 COPY . .
